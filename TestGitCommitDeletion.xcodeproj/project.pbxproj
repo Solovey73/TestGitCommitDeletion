@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A703DC452C4CF90D00DC48BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A703DC442C4CF90D00DC48BD /* ViewController.swift */; };
+		A703DC552C4CFA6400DC48BD /* NewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A703DC542C4CFA6400DC48BD /* NewFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A703DC3D2C4CF90D00DC48BD /* TestGitCommitDeletion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGitCommitDeletion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A703DC442C4CF90D00DC48BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A703DC542C4CFA6400DC48BD /* NewFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				A703DC442C4CF90D00DC48BD /* ViewController.swift */,
+				A703DC542C4CFA6400DC48BD /* NewFile.swift */,
 			);
 			path = TestGitCommitDeletion;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A703DC552C4CFA6400DC48BD /* NewFile.swift in Sources */,
 				A703DC452C4CF90D00DC48BD /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
